@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    background-color: #f4f5f6;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-nav {
+    background-color: #f72210;
+}
+
+.top-nav .date {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.top-nav svg {
+    width: 396px;
+    fill: white;
+    margin-top: 10px;
+}
+
+.top-nav .login {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    background-color: #f72210;
+    color: white;
+    font-size: 18px;
+    font-stretch: 100%;
+    line-height: 0;
+    margin: 4px 4px 4px 0;
+    padding: 0 15px;
+}
+
+.top-nav .subscribe {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(255, 228, 0);
+    color: black;
+    font-size: 18px;
+    font-stretch: 100%;
+    margin: 4px 14px 4px 10px;
+    padding: 0 15px;
+}
+
+.middle-nav-wrap {
+    background-color: white;
+    padding: 15px;
+}
+
+.middle-nav {
+    padding: 0 !important;
+}
+
+.middle-nav div {
+    display: block;
+    cursor: pointer;
+    border-right: 1px solid rgb(217, 217, 217);
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.middle-nav div:last-child {
+    margin-right: 10px;
+}
+
+.middle-nav div:hover{
+    color: #f72210;
+}
+
+.middle-nav input{
+    border: none;
+}
+
+.middle-nav input:focus{
+    outline: none;
+}
+
+.bottom-nav{
+    background-color: white;
+    border-top: 2px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.bottom-nav .bot-nav-item{
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    margin-right: 16px;
+    color: rgb(128, 127, 132);
+}
+
+.bottom-nav .bot-nav-item:hover{
+    color: #f72210;
+}
+
+.bottom-nav .inactive{
+    cursor: context-menu;
+    color: black!important;
+}
+.bottom-nav .inactive:hover{
+    color: black;
+}
